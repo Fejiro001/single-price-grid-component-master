@@ -7,9 +7,9 @@ function App() {
     toast.success("Sign up successful!", { theme: "dark", autoClose: 1500 });
 
   return (
-    <div className="bg-light-gray flex h-full flex-col items-center justify-center font-primaryFont">
+    <div className="bg-light-gray flex h-full flex-col items-center justify-center font-primaryFont p-4">
       <main className="container mx-auto my-8 flex max-w-5xl flex-col overflow-hidden rounded-xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
-        <section className="grid basis-full gap-4 rounded-t-lg bg-white p-8 md:p-12">
+        <section className="grid basis-full gap-4 bg-white p-8 md:p-12">
           <h1 className="text-cyan heading-size font-bold">
             Join our community
           </h1>
