@@ -1,5 +1,3 @@
-import "./App.css";
-
 const dollar = String.fromCodePoint(0x00024);
 function App() {
   return (

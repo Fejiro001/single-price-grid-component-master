@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Karla";
+  font-optical-sizing: auto;
+  font-weight: 400 700;
+  font-style: normal;
+  src: url(./assets/font/Karla-VariableFont_wght.ttf);
+}
