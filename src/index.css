@@ -9,3 +9,18 @@
   font-style: normal;
   src: url(./assets/font/Karla-VariableFont_wght.ttf);
 }
+
+@layer utilities {
+  .heading-size {
+    font-size:clamp(1.5rem,2vw,4rem);
+  }
+  .heading2-size {
+    font-size:clamp(1rem,1.8vw,3.5rem);
+  }
+  .paragraph-size {
+    font-size:clamp(.9rem,1.5vw,3rem);
+  }
+  .bigtext-size {
+    font-size:clamp(2rem,3.5vw,4.5rem);
+  }
+}

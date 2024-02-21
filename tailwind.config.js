@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         primaryFont: ["Karla", "sans-serif"],
       },
+      fontSize: {
+        heading: "clamp(1rem, 2vw, 3rem)",
+      }
     },
   },
   plugins: [],
