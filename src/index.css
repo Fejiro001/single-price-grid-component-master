@@ -10,17 +10,51 @@
   src: url(./assets/font/Karla-VariableFont_wght.ttf);
 }
 
+:root {
+  @apply bg-light-gray;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-cyan;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-bright-yellow;
+}
+
 @layer utilities {
   .heading-size {
-    font-size:clamp(1.5rem,2vw,4rem);
+    font-size: clamp(1.22rem, 1.6vw, 4rem);
   }
   .heading2-size {
-    font-size:clamp(1rem,1.8vw,3.5rem);
+    font-size: clamp(0.91rem, 1.25vw, 3.5rem);
+  }
+  .heading3-size {
+    font-size: clamp(1.1rem, 1vw, 3.5rem);
   }
   .paragraph-size {
-    font-size:clamp(.9rem,1.5vw,3rem);
+    font-size: clamp(0.85rem, 1.1vw, 3rem);
+  }
+  .list-size {
+    font-size: clamp(0.85rem, 0.5vw, 3rem);
+  }
+  .smalltext-size {
+    font-size: clamp(0.95rem, 1vw, 3rem);
   }
   .bigtext-size {
-    font-size:clamp(2rem,3.5vw,4.5rem);
+    font-size: clamp(2rem, 1vw, 4.5rem);
   }
 }
